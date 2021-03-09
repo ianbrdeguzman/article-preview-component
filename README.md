@@ -1,5 +1,7 @@
 # Frontend Mentor - Article preview component
 
+Check it out [here!](https://ianbrdeguzman.github.io/article-preview-component/)
+
 ## Created using:
 
 -   HTML5
