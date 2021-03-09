@@ -102,11 +102,10 @@ body {
             bottom: -70px;
             left: 0;
             transition: all 0.3s linear;
-            .button-container {
+            .link-container {
                 padding-left: 1rem;
                 flex-grow: 1;
-                button {
-                    cursor: pointer;
+                a {
                     background-color: $very-dark-greyish-blue;
                     border: none;
                     outline: none;
@@ -177,13 +176,12 @@ body {
         position: absolute;
         top: 50%;
         left: calc(50% + 200px);
-
         opacity: 0;
-        .button-container {
+        .link-container {
             display: flex;
             flex-grow: 1;
             justify-content: space-between;
-            button {
+            a {
                 cursor: pointer;
                 background-color: $very-dark-greyish-blue;
                 border: none;
@@ -191,7 +189,7 @@ body {
                 margin: 0 0.4rem;
             }
         }
-        .button-container::before {
+        .link-container::before {
             content: '';
             width: 0;
             height: 0;
@@ -212,10 +210,10 @@ body {
         padding: 1rem 2rem;
         width: 250px;
         transform: translateY(-50%);
-        .button-container {
+        .link-container {
             padding-left: 1rem;
         }
-        .button-container::before {
+        .link-container::before {
             left: 40%;
         }
     }
